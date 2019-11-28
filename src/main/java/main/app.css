@@ -1,0 +1,51 @@
+#loginPane, #registerPane {
+	-fx-background-image: url(/imgs/back.png);
+	-fx-background-size: cover;
+}
+#mainPage{
+	-fx-background-image: url(/imgs/gback.png);
+	-fx-background-size: cover;
+}
+
+#loginTitle, #registerTitle {
+	-fx-effect: dropshadow(gaussian, #ffffff, 10, 0.1, 0, 0);
+}
+
+.btn {
+	-fx-background-radius: 5px;
+	-fx-border-radius: 5px;
+	-fx-text-fill:#fff;
+} 
+.btn-success {
+	-fx-background-color: #007bff;
+	-fx-border-color:#007bff;
+}
+.btn-danger {
+	-fx-background-color: #dc3545;
+	-fx-border-color:#dc3545;
+}
+
+.btn-restart{
+	-fx-background-radius: 20;
+	-fx-border-color: #0563C7;
+	-fx-border-radius: 20;
+	-fx-border-width: 3;
+	-fx-text-fill: #FC3A1B;
+}
+
+.btn-logout{
+	-fx-background-radius: 10;
+	-fx-border-color: #0563C7;
+	-fx-border-radius: 10;
+	-fx-border-width: 2;
+	-fx-text-fill: #FC3A1B;
+}
+
+.active {
+	-fx-background-color: rgba(0,123,255, 0.5);
+}
+
+
+
+
+
